@@ -1,0 +1,521 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap') */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    height: 40px;
+    color: #333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 20px;
+
+}
+
+nav a span{
+    font-weight: 800;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /* padding: 15px; */
+}
+
+nav ul li {
+    padding: 8px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+main .hero {
+/*     
+    width: 80%; */
+    /* margin: 0 auto; */
+    /* border: 1px solid black; */
+    height: 500px;
+    background-size: cover;
+    background-image: url(assets/images/architect.jpg);
+}
+
+.archi {
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+}
+
+.archi span{
+    background: #333;
+    padding: 5px 9px;
+    
+}
+
+.archi h1{
+    color: antiquewhite;
+    padding: 240px;
+    font-weight: 400;
+}
+
+
+a{
+
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+   /* justify-content: center; */
+}
+main{
+    margin: 0 200px;
+    
+
+
+}
+main .proj{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 40px 0;
+}
+
+/* pic 1 */
+.pic1{
+    position: relative;
+    display: inline-block;
+}
+.pic1 img {
+    width: 250px;
+    height: auto;
+
+}
+.pic1 .text {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+
+/* pic 2 */
+.pic2{
+    position: relative;
+    display: inline-block;
+}
+.pic2 img {
+    width: 250px;
+    height: auto;
+}
+.pic2 .text {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+/* pic 3 */
+.pic3 {
+    position: relative;
+    display: inline-block;
+}
+.pic3 img {
+    width: 250px;
+    height: auto;
+}
+.pic3 .text {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+/* pic4 */
+
+
+.pic4{
+    position: relative;
+    display: inline-block;
+}
+.pic4 img{
+    width: 250px;
+    height: auto;
+}
+.pic4 .text{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+
+
+/* pic 5 */
+
+.pic5{
+    position: relative;
+    display: inline-block;
+}
+.pic5 img{
+    width: 250px;
+    height: auto;
+}
+.pic5 .text{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+
+/* pic 6 */
+
+
+.pic6{
+    position: relative;
+    display: inline-block;
+}
+.pic6 img{
+    width: 250px;
+    height: auto;
+}
+.pic6 .text{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+
+/* pic 7 */
+
+
+
+.pic7{
+    position: relative;
+    display: inline-block;
+}
+.pic7 img{
+    width: 250px;
+    height: auto;
+}
+.pic7 .text{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+/* pic8 */
+
+.pic8{
+    position: relative;
+    display: inline-block;
+}
+.pic8 img{
+    width: 250px;
+    height: auto;
+}
+.pic8 .text{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+.about  {
+
+    margin: 40px 0 20px 0;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+.pict1{
+    max-width: 250px;
+
+    display: inline-block;
+
+}
+.pict1 img {
+    width: 250px;
+    height: auto;
+    padding: 20px 0 0 0 ;
+}
+.pict1 .btn {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   
+    max-width: 250px;
+    background-color: rgb(206, 206, 206);
+    color:  black;
+    text-decoration: none;
+    text-align: center;
+
+    padding: 10px;
+}
+
+.pict1 .text h3{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   
+    padding: 15px 0 10px 0 ;
+}
+.pict1 .text p{
+    padding: 15px 0 6px 0;
+}
+
+
+
+
+
+ 
+.pict2{
+  max-width: 250px;
+
+    display: inline-block;
+
+}
+.pict2 img {
+    width: 250px;
+    height: auto;
+    padding: 20px 0 0 0 ;
+}
+.pict2 .btn {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   
+    max-width: 250px;
+    background-color: rgb(206, 206, 206);
+    color:  black;
+    text-decoration: none;
+    text-align: center;
+
+    padding: 10px;
+}
+
+.pict2 .text h3{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   
+    padding: 15px 0 10px 0 ;
+}
+.pict2 .text p{
+    padding: 15px 0 6px 0;
+}
+
+
+
+
+
+
+ 
+.pict3{
+    max-width: 250px;
+  
+      display: inline-block;
+  
+  }
+  .pict3 img {
+      width: 250px;
+      height: auto;
+      padding: 20px 0 0 0 ;
+  }
+  .pict3 .btn {
+      font-family: "Kode Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+     
+      max-width: 250px;
+      background-color: rgb(206, 206, 206);
+      color:  black;
+      text-decoration: none;
+      text-align: center;
+  
+      padding: 10px;
+  }
+  
+  .pict3 .text h3{
+      font-family: "Kode Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+     
+      padding: 15px 0 10px 0 ;
+  }
+  .pict3 .text p{
+      padding: 15px 0 6px 0;
+  }
+
+
+
+
+
+
+  
+ 
+.pict4{
+    max-width: 250px;
+  
+      display: inline-block;
+  
+  }
+  .pict4 img {
+      width: 250px;
+      height: auto;
+      padding: 20px 0 0 0 ;
+  }
+  .pict4 .btn {
+      font-family: "Kode Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+     
+      max-width: 250px;
+      background-color: rgb(206, 206, 206);
+      color:  black;
+      text-decoration: none;
+      text-align: center;
+  
+      padding: 10px;
+  }
+  
+  .pict4 .text h3{
+      font-family: "Kode Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+     
+      padding: 15px 0 10px 0 ;
+  }
+  .pict4 .text p{
+      padding: 15px 0 6px 0;
+  }
+
+
+
+
+  .cont{
+    padding: 50px 0 20px 0;
+
+    font-family: "Kode Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+
+  }
+  .feed{
+    padding: 0 0 20px 0;
+    
+    font-family: "Kode Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+  }
+
+  .form1 ::placeholder{ 
+    padding: 10px;
+    
+ 
+  } 
+  
+  .form2 ::placeholder{
+    padding: 10px;
+
+  }
+.form3 ::placeholder{
+    padding: 10px;
+}
+.form4 ::placeholder{
+    padding: 10px;
+}
+.form1{
+    margin: 10px 0 ;
+}
+.form2{
+    margin: 10px 0 ;
+}
+.form3{
+    margin: 10px 0 ;
+}
+.form4{
+    margin: 10px 0 ;
+}
+
+
+.btn1{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+
+    
+
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 170px;
+    margin: 30px 0;
+    
+}
+
+footer{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+  
